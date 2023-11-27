@@ -28,9 +28,9 @@ resource "azurerm_cognitive_account" "this" {
     avm_git_commit           = "0f4ab7f7144efaef16afbc1b0e3d4b9e6ca0a29d"
     avm_git_file             = "main.tf"
     avm_git_last_modified_at = "2023-05-19 09:48:38"
-    avm_git_org              = "Azure"
+    avm_git_org              = "lonegunmanb"
     avm_git_repo             = "terraform-azurerm-openai"
-    avm_yor_trace            = "31f8e67c-8ee7-4fcd-b335-b8a527844eec"
+    avm_yor_trace            = "6c173eff-11f6-48df-afa7-a90f32311393"
     } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/), (/*<box>*/ (var.tracing_tags_enabled ? { for k, v in /*</box>*/ {
     avm_yor_name = "this"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
